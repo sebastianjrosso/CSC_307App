@@ -45,6 +45,7 @@ function handleChange(event) {
   function submitForm() {
     props.handleSubmit(person);
     setPerson({name: '', job: ''});
+    
   }
 }
 export default Form;
