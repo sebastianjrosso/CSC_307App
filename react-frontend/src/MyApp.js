@@ -18,5 +18,13 @@ function removeOneCharacter (index) {
       <Form />
     </div>
   )
+
+  function updateList(person) {
+    setCharacters([...characters, person]);
+    <Form handleSubmit={updateList} />
+  }
+
 }
+
+
 export default MyApp;
